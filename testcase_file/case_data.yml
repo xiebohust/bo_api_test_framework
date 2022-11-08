@@ -1,0 +1,24 @@
+
+- id: xxxxx
+  feature: xxxx
+  title: xxx
+  url:
+  method: 'GET'
+  headers:
+    Authorization: ''
+  data_type: params
+  data:
+    planNo: ${plan_no}
+  expect:
+    eq: {$.code: 0}
+  db_name: xxxxx
+  setup_sql:
+    - INSERT INTO
+    - select xx from xx where xx='${func()}' ;
+  teardown_sql:
+    - delete from xxx where bb='${bb}' ;
+
+
+
+
+
