@@ -15,6 +15,7 @@ python3 + pytest + requests + allure + yaml
 
 
 ## 框架目录结构
+<img width="358" alt="image" src="https://user-images.githubusercontent.com/33419999/206701049-6858e733-3808-4dd8-9c6e-f5a8b06f2417.png">
 
 **generate_case:**
 生成的测试py文件目录，用例结构如下：
